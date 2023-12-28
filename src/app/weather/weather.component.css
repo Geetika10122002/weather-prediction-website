@@ -1,0 +1,27 @@
+.card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    margin-left: 450px;
+    margin-top: 100px;
+    position: relative
+}
+
+.card-header{
+    text-align: left;
+}
+.search{
+    margin-bottom: 1em;
+    text-align: center;
+}
+.search input{
+    background-color: rgb(172, 219, 227);
+    outline: none;
+    border: none;
+    border-radius:20px ;
+    padding: 1em;
+    color:rgb(40, 82, 134);
+    font-size: 0.8em;
+    text-align: center;
+}
